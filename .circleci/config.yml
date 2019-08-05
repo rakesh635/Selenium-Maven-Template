@@ -38,4 +38,4 @@ jobs:
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
       # run seleinium tests!
-      - run: mvn clean verify -Doverwrite.binaries=true -Dbrowser=chrome -Dheadless=true -DseleniumGridURL=http://rakesh635:321661be-ee97-4df8-97c3-c05a48f84e54@ondemand.eu-central-1.saucelabs.com
+      - run: mvn clean verify -Doverwrite.binaries=true -Dbrowser=chrome -Dheadless=true
