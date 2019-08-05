@@ -31,6 +31,9 @@ jobs:
             - v1-dependencies-
 
       - run: mvn dependency:go-offline
+      
+      - run: google-chrome --version
+      - run: chromedriver --version
 
       - save_cache:
           paths:
