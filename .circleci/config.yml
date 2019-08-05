@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: markhobson/maven-chrome
+      - image: rakesh635/mavenchromedriver:72
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
