@@ -38,4 +38,4 @@ jobs:
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
       # run seleinium tests!
-      - run: mvn clean verify -Doverwrite.binaries=true -Dheadless=true
+      - run: mvn clean verify -Doverwrite.binaries=true -Dbrowser=chrome -Dheadless=true
